@@ -1,7 +1,7 @@
 import Fastify from 'fastify'
 import firstRoute from './routes/first-route.js'
 
-const fastify = new Fastify({
+const fastify = Fastify({
   logger: true
 })
 
